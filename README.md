@@ -15,5 +15,5 @@ This is a dockerized version of Ansible Playbook 2.9.6.
 Run the image:
 
 ```
-docker run -d vsiryk/ansible-playbook:latest
+docker run vsiryk/ansible-playbook:latest ansible-playbook --version
 ```
